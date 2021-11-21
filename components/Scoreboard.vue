@@ -1,16 +1,7 @@
 <template>
   <div>
     <div class="team">
-      <div class="players">
-        <div class="player1">
-          <img src="@/assets/flags/sweden.png" alt="" v-if="false" />
-          <div class="name">Simon</div>
-        </div>
-        <div class="player2">
-          <img src="@/assets/flags/sweden.png" alt="" v-if="false" />
-          <div class="name">Michael</div>
-        </div>
-      </div>
+      <Team :player1="'Emma Wallin'" :player2="'Lotta Nyman'" />
       <div class="sets flex">
         <div class="set1">1</div>
         <div class="set2">2</div>
@@ -33,5 +24,14 @@
 .team {
   display: flex;
   align-items: center;
+}
+.players div {
+  display: flex;
+}
+.name {
+  margin-right: 10px;
+}
+.players img {
+  height: 20px;
 }
 </style>

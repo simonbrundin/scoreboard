@@ -1,8 +1,8 @@
 <template>
   <div class="flex flex-col items-center">
-    <Nuxt-link to="/input"><button>Poängräknare</button></Nuxt-link
-    ><Nuxt-link to="/output"><button>Overlay - in i vMix</button></Nuxt-link
-    ><Nuxt-link to="/settings"><button>Inställningar</button></Nuxt-link>
+    <NuxtLink to="/input"><button>Poängräknare</button></NuxtLink
+    ><NuxtLink to="/output"><button>Overlay - in i vMix</button></NuxtLink
+    ><NuxtLink to="/settings"><button>Inställningar</button></NuxtLink>
   </div>
 </template>
 
@@ -14,5 +14,6 @@ button {
   color: white;
   padding: 10px;
   margin-bottom: 10px;
+  font-size: 20px;
 }
 </style>
